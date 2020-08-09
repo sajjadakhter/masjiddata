@@ -1,0 +1,1184 @@
+{
+ "month": 5,
+ "year": 2020,
+ "salatimes": [
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 18
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 39
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 9
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 6
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 11
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 17
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 47
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 8
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 16
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 38
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 7
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 7
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 11
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 18
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 48
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 10
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 14
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 36
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 6
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 7
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 12
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 19
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 50
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 12
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 12
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 34
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 5
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 7
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 13
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 20
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 51
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 14
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 10
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 32
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 4
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 8
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 13
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 21
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 53
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 15
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 8
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 31
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 2
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 8
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 14
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 23
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 55
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 17
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 6
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 29
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 1
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 9
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 15
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 24
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 56
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 19
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 4
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 27
+   },
+   "sunrise": {
+    "hour": 6,
+    "min": 0
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 9
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 15
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 25
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 58
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 21
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 2
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 26
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 59
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 9
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 16
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 26
+   },
+   "isha15": {
+    "hour": 21,
+    "min": 59
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 22
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 4,
+    "min": 1
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 24
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 57
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 10
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 16
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 27
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 1
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 24
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 59
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 22
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 56
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 10
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 17
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 28
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 2
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 26
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 57
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 21
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 55
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 10
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 18
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 29
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 4
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 28
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 55
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 19
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 54
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 11
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 18
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 30
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 5
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 29
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 53
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 18
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 53
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 11
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 19
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 31
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 7
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 31
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 52
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 16
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 52
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 11
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 20
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 32
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 8
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 33
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 50
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 15
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 51
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 12
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 20
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 33
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 10
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 35
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 48
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 13
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 50
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 12
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 21
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 34
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 11
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 36
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 47
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 12
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 49
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 12
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 21
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 35
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 13
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 38
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 45
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 10
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 48
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 13
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 22
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 36
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 14
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 40
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 44
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 9
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 47
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 13
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 23
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 37
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 16
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 42
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 42
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 8
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 46
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 13
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 23
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 38
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 17
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 43
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 41
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 6
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 46
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 14
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 24
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 39
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 19
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 45
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 39
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 5
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 45
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 14
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 24
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 40
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 20
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 46
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 38
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 4
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 44
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 12
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 14
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 25
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 41
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 22
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 48
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 36
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 3
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 43
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 15
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 25
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 42
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 23
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 50
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 35
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 2
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 43
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 15
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 26
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 43
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 24
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 51
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 34
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 1
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 42
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 15
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 26
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 44
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 26
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 53
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 32
+   },
+   "fajar15": {
+    "hour": 4,
+    "min": 0
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 41
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 16
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 27
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 45
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 27
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 54
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 31
+   },
+   "fajar15": {
+    "hour": 3,
+    "min": 59
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 41
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 16
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 28
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 46
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 28
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 56
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 30
+   },
+   "fajar15": {
+    "hour": 3,
+    "min": 58
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 40
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 16
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 28
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 46
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 29
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 57
+   }
+  },
+  {
+   "fajar18": {
+    "hour": 3,
+    "min": 29
+   },
+   "fajar15": {
+    "hour": 3,
+    "min": 57
+   },
+   "sunrise": {
+    "hour": 5,
+    "min": 40
+   },
+   "zuhar": {
+    "hour": 13,
+    "min": 13
+   },
+   "asarshafai": {
+    "hour": 17,
+    "min": 17
+   },
+   "asrhanfi": {
+    "hour": 18,
+    "min": 29
+   },
+   "maghrib": {
+    "hour": 20,
+    "min": 47
+   },
+   "isha15": {
+    "hour": 22,
+    "min": 31
+   },
+   "isha18": {
+    "hour": 22,
+    "min": 59
+   }
+  }
+ ]
+}
