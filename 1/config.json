@@ -1,0 +1,22 @@
+{
+  "computed_salah" : {
+    "ishraq": {
+      "min": 12
+    },
+    "chasht": {
+      "min": 120
+    },
+    "zawal": {
+      "min": -12
+    }
+  },
+  "fajr" : {
+    "degree": 15
+  },
+  "isha" : {
+    "degree": 18
+  },
+  "maghrib" : {
+    "min": 2
+  }
+}
