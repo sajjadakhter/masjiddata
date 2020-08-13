@@ -1,0 +1,28 @@
+{"Multipart":"begin"}
+{"Month":1,"Day":1,"fajar":390,"zuhar":820,"asar":960, "maghrib":0, "isha":1170, "maghrib-offset":2}
+{"Month":2,"Day":1,                        "asar":975                          }
+{"Month":2,"Day":11,                       "asar":990,              "isha":1185}
+{"Month":2,"Day":21, "fajar":375,          "asar":1005,             "isha":1200}
+{"Month":3,"Day":0,  "fajar":390,          "asar":1110,             "isha":1275, "on-daylight-start": 1}
+{"Month":3,"Day":21,                                                "isha":1290}
+{"Month":4,"Day":1,  "fajar":375,                                   "isha":1305}
+{"Month":4,"Day":11, "fajar":360,                                   "isha":1320}
+{"Month":4,"Day":21, "fajar":345,          "asar":1125,                        }
+{"Month":5,"Day":1,  "fajar":330,          "asar":1140,             "isha":1335}
+{"Month":5,"Day":11, "fajar":315,                                   "isha":1350}
+{"Month":5,"Day":21, "fajar":300,                                   "isha":1365}
+{"Month":6,"Day":1,                                                 "isha":1380}
+{"Month":6,"Day":11, "fajar":315,                                   "isha":1370}
+{"Month":7,"Day":21, "fajar":330,                                   "isha":1360}
+{"Month":8,"Day":1,                                                 "isha":1350}
+{"Month":8,"Day":11, "fajar":345,                                   "isha":1335}
+{"Month":8,"Day":21, "fajar":360,          "asar":1125,             "isha":1320}
+{"Month":9,"Day":1,                        "asar":1110,             "isha":1305}
+{"Month":9,"Day":11, "fajar":375,          "asar":1095,             "isha":1290}
+{"Month":9,"Day":21,                       "asar":1080,             "isha":1260}
+{"Month":10,"Day":1,                       "asar":1065,             "isha":1245}
+{"Month":10,"Day":11,"fajar":390,          "asar":1050,             "isha":1230}
+{"Month":10,"Day":21,"fajar":405,          "asar":1035,             "isha":1215}
+{"Month":11,"Day":0, "fajar":375,          "asar":960,              "isha":1170, "on-daylight-end": 1}
+{"Month":12,"Day":11,"fajar":390                                               }
+{"Multipart":"end"}
