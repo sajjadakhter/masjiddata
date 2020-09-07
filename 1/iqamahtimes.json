@@ -8,8 +8,8 @@
 {"Month":4,"Day":1,  "fajar":{ "times":[375]},                                   "isha":{ "times":[1305]}}
 {"Month":4,"Day":11, "fajar":{ "times":[360]},                                   "isha":{ "times":[1320]}}
 {"Month":4,"Day":21, "fajar":{ "times":[345]},          "asar":{ "times":[1125]}                        }
-{"Month":5,"Day":1,  "fajar":{ "times":[330]},          "asar":{ "times":[1140]}             "isha":{ "times":[1335]}}
-{"Month":5,"Day":11, "fajar":{ "times":[315]},                                   "isha":{ "times":[1350]}
+{"Month":5,"Day":1,  "fajar":{ "times":[330]},          "asar":{ "times":[1140]},             "isha":{ "times":[1335]}}
+{"Month":5,"Day":11, "fajar":{ "times":[315]},                                   "isha":{ "times":[1350]}}
 {"Month":5,"Day":21, "fajar":{ "times":[300]},                                   "isha":{ "times":[1365]}}
 {"Month":6,"Day":1,                                                 "isha":{ "times":[1380]}}
 {"Month":6,"Day":11, "fajar":{ "times":[315]},                                   "isha":{ "times":[1370]}}
@@ -23,6 +23,6 @@
 {"Month":10,"Day":1,                       "asar":{ "times":[1065]},             "isha":{ "times":[1245]}}
 {"Month":10,"Day":11,"fajar":{ "times":[390]},          "asar":{ "times":[1050]},             "isha":{ "times":[1230]}}
 {"Month":10,"Day":21,"fajar":{ "times":[405]},          "asar":{ "times":[1035]},             "isha":{ "times":[1215]}}
-{"Month":11,"Day":"1st-sunday", "fajar":[375]},          "asar":{ "times":[960]},              "isha":{ "times":[1170]}}
+{"Month":11,"Day":"1st-sunday", "fajar":{"times":[375]},          "asar":{ "times":[960]},              "isha":{ "times":[1170]}}
 {"Month":12,"Day":11,"fajar":{ "times":[390]}                                               }
 {"Multipart":"end"}
