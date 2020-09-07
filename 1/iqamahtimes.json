@@ -1,34 +1,59 @@
 {"Multipart":"begin"}
-{"Month":1,"Day":1,"fajar":{ "times": [390]}}
-{"Month":1,"Day":1,"zuhar":{ "times":[820]}}
-{"Month":1,"Day":1,"asar":{ "times":[960]} }
-{"Month":1,"Day":1,"maghrib":{ "type": "relative","times":[2]}}
-{"Month":1,"Day":1,"isha":{ "times":[1170]}}
-{"Month":1,"Day":1, "juma": { "times":[820]}}
-{"Month":1,"Day":1,"eid":{ "times": []}}
-{"Month":2,"Day":1,                        "asar":{ "times":[975]   }                       }
-{"Month":2,"Day":11,                       "asar":{ "times":[990]},              "isha":[1185]}
-{"Month":2,"Day":21, "fajar":{ "times":[375]},          "asar":{ "times":[1005]},             "isha":{ "times":[1200]}}
-{"Month":3,"Day":"2nd-sunday",  "fajar":{ "times":[390]},          "asar":{ "times":[1110]},             "isha":{ "times":[1275]}}
-{"Month":3,"Day":21,                                                "isha":{ "times":[1290]}}
-{"Month":4,"Day":1,  "fajar":{ "times":[375]},                                   "isha":{ "times":[1305]}}
-{"Month":4,"Day":11, "fajar":{ "times":[360]},                                   "isha":{ "times":[1320]}}
-{"Month":4,"Day":21, "fajar":{ "times":[345]},          "asar":{ "times":[1125]}                        }
-{"Month":5,"Day":1,  "fajar":{ "times":[330]},          "asar":{ "times":[1140]},             "isha":{ "times":[1335]}}
-{"Month":5,"Day":11, "fajar":{ "times":[315]},                                   "isha":{ "times":[1350]}}
-{"Month":5,"Day":21, "fajar":{ "times":[300]},                                   "isha":{ "times":[1365]}}
-{"Month":6,"Day":1,                                                 "isha":{ "times":[1380]}}
-{"Month":6,"Day":11, "fajar":{ "times":[315]},                                   "isha":{ "times":[1370]}}
-{"Month":7,"Day":21, "fajar":{ "times":[330]},                                   "isha":{ "times":[1360]}}
-{"Month":8,"Day":1,                                                 "isha":{ "times":[1350]}}
-{"Month":8,"Day":11, "fajar":{ "times":[345]},                                   "isha":{ "times":[1335]}}
-{"Month":8,"Day":21, "fajar":{ "times":[360]},          "asar":{ "times":[1125]},             "isha":{ "times":[1320]}}
-{"Month":9,"Day":1,                        "asar":{ "times":[1110]},             "isha":{ "times":[1305]}}
-{"Month":9,"Day":11, "fajar":{ "times":[375]},          "asar":{ "times":[1095]},             "isha":{ "times":[1290]}}
-{"Month":9,"Day":21,                       "asar":{ "times":[1080]},             "isha":{ "times":[1260]}}
-{"Month":10,"Day":1,                       "asar":{ "times":[1065]},             "isha":{ "times":[1245]}}
-{"Month":10,"Day":11,"fajar":{ "times":[390]},          "asar":{ "times":[1050]},             "isha":{ "times":[1230]}}
-{"Month":10,"Day":21,"fajar":{ "times":[405]},          "asar":{ "times":[1035]},             "isha":{ "times":[1215]}}
-{"Month":11,"Day":"1st-sunday", "fajar":{"times":[375]},          "asar":{ "times":[960]},              "isha":{ "times":[1170]}}
-{"Month":12,"Day":11,"fajar":{ "times":[390]}                                               }
+{"Month":1,"Day":1,"SalahName":"fajar","Times":[390]}
+{"Month":1,"Day":1,"SalahName":"zuhar","Times":[780]}
+{"Month":1,"Day":1,"SalahName":"asar","Times":[960]}
+{"Month":1,"Day":1,"SalahName":"maghrib","Times":[2],"Relative":true}
+{"Month":1,"Day":1,"SalahName":"isha","Times":[1170]}
+{"Month":2,"Day":1,"SalahName":"asar","Times":[975]}
+{"Month":2,"Day":11,"SalahName":"asar","Times":[990]}
+{"Month":2,"Day":11,"SalahName":"isha","Times":[1185]}
+{"Month":2,"Day":21,"SalahName":"fajar","Times":[375]}
+{"Month":2,"Day":21,"SalahName":"asar","Times":[1005]}
+{"Month":2,"Day":21,"SalahName":"isha","Times":[1200]}
+{"Month":3,"Day":2,"DayOfWeek":"sunday","SalahName":"fajar","Times":[390]}
+{"Month":3,"Day":2,"DayOfWeek":"sunday","SalahName":"asar","Times":[1110]}
+{"Month":3,"Day":2,"DayOfWeek":"sunday","SalahName":"isha","Times":[1275]}
+{"Month":3,"Day":21,"SalahName":"isha","Times":[1290]}
+{"Month":4,"Day":1,"SalahName":"fajar","Times":[375]}
+{"Month":4,"Day":1,"SalahName":"isha","Times":[1305]}
+{"Month":4,"Day":11,"SalahName":"fajar","Times":[360]}
+{"Month":4,"Day":11,"SalahName":"isha","Times":[1320]}
+{"Month":4,"Day":21,"SalahName":"fajar","Times":[345]}
+{"Month":4,"Day":21,"SalahName":"asar","Times":[405]}
+{"Month":5,"Day":1,"SalahName":"fajar","Times":[330]}
+{"Month":5,"Day":1,"SalahName":"asar","Times":[1140]}
+{"Month":5,"Day":1,"SalahName":"isha","Times":[1335]}
+{"Month":5,"Day":11,"SalahName":"fajar","Times":[315]}
+{"Month":5,"Day":11,"SalahName":"isha","Times":[1350]}
+{"Month":5,"Day":21,"SalahName":"fajar","Times":[300]}
+{"Month":5,"Day":21,"SalahName":"isha","Times":[1365]}
+{"Month":6,"Day":1,"SalahName":"isha","Times":[1380]}
+{"Month":6,"Day":11,"SalahName":"fajar","Times":[315]}
+{"Month":6,"Day":11,"SalahName":"isha","Times":[1370]}
+{"Month":7,"Day":21,"SalahName":"fajar","Times":[330]}
+{"Month":7,"Day":21,"SalahName":"isha","Times":[1360]}
+{"Month":8,"Day":1,"SalahName":"isha","Times":[1350]}
+{"Month":8,"Day":11,"SalahName":"fajar","Times":[360]}
+{"Month":8,"Day":11,"SalahName":"isha","Times":[1320]}
+{"Month":8,"Day":21,"SalahName":"fajar","Times":[345]}
+{"Month":8,"Day":21,"SalahName":"isha","Times":[1335]}
+{"Month":9,"Day":1,"SalahName":"fajar","Times":[375]}
+{"Month":9,"Day":1,"SalahName":"asar","Times":[1110]}
+{"Month":9,"Day":1,"SalahName":"isha","Times":[1305]}
+{"Month":9,"Day":11,"SalahName":"asar","Times":[1095]}
+{"Month":9,"Day":11,"SalahName":"isha","Times":[1290]}
+{"Month":9,"Day":21,"SalahName":"asar","Times":[1080]}
+{"Month":9,"Day":21,"SalahName":"isha","Times":[1260]}
+{"Month":10,"Day":1,"SalahName":"asar","Times":[1065]}
+{"Month":10,"Day":1,"SalahName":"isha","Times":[1245]}
+{"Month":10,"Day":11,"SalahName":"fajar","Times":[390]}
+{"Month":10,"Day":11,"SalahName":"asar","Times":[1050]}
+{"Month":10,"Day":11,"SalahName":"isha","Times":[1230]}
+{"Month":10,"Day":21,"SalahName":"fajar","Times":[405]}
+{"Month":10,"Day":21,"SalahName":"asar","Times":[1035]}
+{"Month":10,"Day":21,"SalahName":"isha","Times":[1215]}
+{"Month":11,"Day":1,"DayOfWeek":"sunday","SalahName":"fajar","Times":[375]}
+{"Month":11,"Day":1,"DayOfWeek":"sunday","SalahName":"asar","Times":[975]}
+{"Month":11,"Day":1,"DayOfWeek":"sunday","SalahName":"isha","Times":[1170]}
+{"Month":12,"Day":11,"SalahName":"fajar","Times":[390]}
 {"Multipart":"end"}

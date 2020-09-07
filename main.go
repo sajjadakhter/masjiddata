@@ -20,11 +20,11 @@ type SalahTime struct {
 	Min  int `json:"min"`
 }
 type Salatimes struct {
-	Month    int
-	Day      int
-	Fajar18   int `json:"fajar18"`
-	Fajar15   int `json:"fajar15"`
-	Sunrise   int `json:"sunrise"`
+	Month   int
+	Day     int
+	Fajar18 int `json:"fajar18"`
+	Fajar15 int `json:"fajar15"`
+	Sunrise int `json:"sunrise"`
 	//Ishraq    SalahTime `json:"ishraq"`
 	//Chasht    SalahTime `json:"chasht"`
 	//Zawal     SalahTime `json:"zawal"`
@@ -37,9 +37,9 @@ type Salatimes struct {
 }
 
 type Salatimes2 struct {
-	Fajar18   int `json:"fajar18"`
-	Fajar15   int `json:"fajar15"`
-	Sunrise   int `json:"sunrise"`
+	Fajar18 int `json:"fajar18"`
+	Fajar15 int `json:"fajar15"`
+	Sunrise int `json:"sunrise"`
 	//Ishraq    SalahTime `json:"ishraq"`
 	//Chasht    SalahTime `json:"chasht"`
 	//Zawal     SalahTime `json:"zawal"`
@@ -52,62 +52,199 @@ type Salatimes2 struct {
 }
 
 type SalahTimeYear struct {
-	Year      int         `json:"year"`
-	Salatimes [12][31][9] int `json:"salatimes"` //[month][day][salah]
+	Year      int            `json:"year"`
+	Salatimes [12][31][9]int `json:"salatimes"` //[month][day][salah]
 }
 
 func convertStrToMin(str string) int {
 	parts := strings.Split(strings.Split(str, " ")[0], ":")
-	h , _ := strconv.Atoi(parts[0])
-	m , _ := strconv.Atoi(parts[1])
-	return  (h*60) + m
+	h, _ := strconv.Atoi(parts[0])
+	m, _ := strconv.Atoi(parts[1])
+	return (h * 60) + m
 }
 
 func convertStrToSalaTime(str string) SalahTime {
 	parts := strings.Split(strings.Split(str, " ")[0], ":")
-	h , _ := strconv.Atoi(parts[0])
-	m , _ := strconv.Atoi(parts[1])
-	return SalahTime{ Hour: h, Min: m}
+	h, _ := strconv.Atoi(parts[0])
+	m, _ := strconv.Atoi(parts[1])
+	return SalahTime{Hour: h, Min: m}
 }
 
 type Multipart struct {
 	Multipart string
 }
 
+type DailyIqamahTime struct {
+	Month     int
+	Day       int
+	DayOfWeek string `json:",omitempty"`
+	SalahName string
+	Times     []int
+	Relative  bool `json:",omitempty"`
+}
 
+const (
+	fajar   = "fajar"
+	zuhar   = "zuhar"
+	asar    = "asar"
+	maghrib = "maghrib"
+	isha    = "isha"
+	juma    = "juma"
+	eid     = "eid"
+	special = "special"
+)
+
+func tomin(h int, m int) int {
+	return (h * 60) + m
+}
+
+func tomina(h int, m int) []int {
+	return []int{(h * 60) + m}
+}
+
+func writeMasjidZakriyaTimes() {
+	times := []DailyIqamahTime{
+		{Month: 1, Day: 1, SalahName: fajar, Times: tomina(6, 30)},
+		{Month: 1, Day: 1, SalahName: zuhar, Times: tomina(13, 0)},
+		{Month: 1, Day: 1, SalahName: asar, Times: tomina(16, 0)},
+		{Month: 1, Day: 1, SalahName: maghrib, Times: []int{2}, Relative: true},
+		{Month: 1, Day: 1, SalahName: isha, Times: tomina(19, 30)},
+
+		{Month: 2, Day: 1, SalahName: asar, Times: tomina(16, 15)},
+
+		{Month: 2, Day: 11, SalahName: asar, Times: tomina(16, 30)},
+		{Month: 2, Day: 11, SalahName: isha, Times: tomina(19, 45)},
+
+		{Month: 2, Day: 21, SalahName: fajar, Times: tomina(6, 15)},
+		{Month: 2, Day: 21, SalahName: asar, Times: tomina(16, 45)},
+		{Month: 2, Day: 21, SalahName: isha, Times: tomina(20, 0)},
+
+		{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: fajar, Times: tomina(6, 30)},
+		{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: asar, Times: tomina(18, 30)},
+		{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: isha, Times: tomina(21, 15)},
+
+		{Month: 3, Day: 21, SalahName: isha, Times: tomina(21, 30)},
+
+		{Month: 4, Day: 1, SalahName: fajar, Times: tomina(6, 15)},
+		{Month: 4, Day: 1, SalahName: isha, Times: tomina(21, 45)},
+
+		{Month: 4, Day: 11, SalahName: fajar, Times: tomina(6, 0)},
+		{Month: 4, Day: 11, SalahName: isha, Times: tomina(22, 0)},
+
+		{Month: 4, Day: 21, SalahName: fajar, Times: tomina(5, 45)},
+		{Month: 4, Day: 21, SalahName: asar, Times: tomina(6, 45)},
+
+		{Month: 5, Day: 1, SalahName: fajar, Times: tomina(5, 30)},
+		{Month: 5, Day: 1, SalahName: asar, Times: tomina(19, 0)},
+		{Month: 5, Day: 1, SalahName: isha, Times: tomina(22, 15)},
+
+		{Month: 5, Day: 11, SalahName: fajar, Times: tomina(5, 15)},
+		{Month: 5, Day: 11, SalahName: isha, Times: tomina(22, 30)},
+
+		{Month: 5, Day: 21, SalahName: fajar, Times: tomina(5, 0)},
+		{Month: 5, Day: 21, SalahName: isha, Times: tomina(22, 45)},
+
+		{Month: 6, Day: 1, SalahName: isha, Times: tomina(23, 0)},
+
+		{Month: 6, Day: 11, SalahName: fajar, Times: tomina(5, 15)},
+		{Month: 6, Day: 11, SalahName: isha, Times: tomina(22, 50)},
+
+		{Month: 7, Day: 21, SalahName: fajar, Times: tomina(5, 30)},
+		{Month: 7, Day: 21, SalahName: isha, Times: tomina(22, 40)},
+
+		{Month: 8, Day: 1, SalahName: isha, Times: tomina(22, 30)},
+
+		{Month: 8, Day: 11, SalahName: fajar, Times: tomina(6, 0)},
+		{Month: 8, Day: 11, SalahName: isha, Times: tomina(22, 0)},
+
+		{Month: 8, Day: 21, SalahName: fajar, Times: tomina(5, 45)},
+		{Month: 8, Day: 21, SalahName: isha, Times: tomina(22, 15)},
+
+		{Month: 9, Day: 1, SalahName: fajar, Times: tomina(6, 15)},
+		{Month: 9, Day: 1, SalahName: asar, Times: tomina(18, 30)},
+		{Month: 9, Day: 1, SalahName: isha, Times: tomina(21, 45)},
+
+		{Month: 9, Day: 11, SalahName: asar, Times: tomina(18, 15)},
+		{Month: 9, Day: 11, SalahName: isha, Times: tomina(21, 30)},
+
+		{Month: 9, Day: 21, SalahName: asar, Times: tomina(18, 0)},
+		{Month: 9, Day: 21, SalahName: isha, Times: tomina(21, 0)},
+
+		{Month: 10, Day: 1, SalahName: asar, Times: tomina(17, 45)},
+		{Month: 10, Day: 1, SalahName: isha, Times: tomina(20, 45)},
+
+		{Month: 10, Day: 11, SalahName: fajar, Times: tomina(6, 30)},
+		{Month: 10, Day: 11, SalahName: asar, Times: tomina(17, 30)},
+		{Month: 10, Day: 11, SalahName: isha, Times: tomina(20, 30)},
+
+		{Month: 10, Day: 21, SalahName: fajar, Times: tomina(6, 45)},
+		{Month: 10, Day: 21, SalahName: asar, Times: tomina(17, 15)},
+		{Month: 10, Day: 21, SalahName: isha, Times: tomina(20, 15)},
+
+		{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: fajar, Times: tomina(6, 15)},
+		{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: asar, Times: tomina(16, 15)},
+		{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: isha, Times: tomina(19, 30)},
+
+		{Month: 12, Day: 11, SalahName: fajar, Times: tomina(6, 30)},
+	}
+
+	f, err := os.OpenFile("./1/iqamahtimes.json", os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println(err)
+	}
+
+	t, _ := json.Marshal(Multipart{"begin"})
+	if _, err := f.WriteString(fmt.Sprintf("%s\n", string(t))); err != nil {
+		log.Println(err)
+	}
+
+	for _, v := range times {
+		t, _ = json.Marshal(v)
+		if _, err := f.WriteString(fmt.Sprintf("%s\n", string(t))); err != nil {
+			log.Println(err)
+		}
+	}
+
+	t, _ = json.Marshal(Multipart{"end"})
+	if _, err := f.WriteString(fmt.Sprintf("%s\n", string(t))); err != nil {
+		log.Println(err)
+	}
+}
 func main() {
-	year := 2020
+
+	writeMasjidZakriyaTimes()
+
+	//year := 2020
 	//for i:=1; i < 13; i++ {
 	//	data := getMonthData2( year)
 	//	file, _ := json.MarshalIndent(data, "", " ")
 	//	_ = ioutil.WriteFile(fmt.Sprintf("%v.json", i), file, 0644)
 	//}
 
-
-		getMonthData2( year)
-		//file, _ := json.MarshalIndent(times, "", " ")
-		//_ = ioutil.WriteFile(fmt.Sprintf("salahtimes.json"), file, 0644)
+	//getMonthData2( year)
+	//file, _ := json.MarshalIndent(times, "", " ")
+	//_ = ioutil.WriteFile(fmt.Sprintf("salahtimes.json"), file, 0644)
 
 }
 
 func writeMultipart(begin bool) {
-	 tag := Multipart{"begin"};
-	 fileMode := os.O_CREATE|os.O_WRONLY;
+	tag := Multipart{"begin"}
+	fileMode := os.O_CREATE | os.O_WRONLY
 	if !begin {
 		tag.Multipart = "end"
-		fileMode = os.O_APPEND|os.O_CREATE|os.O_WRONLY
+		fileMode = os.O_APPEND | os.O_CREATE | os.O_WRONLY
 	}
 	t, _ := json.Marshal(tag)
 	f, err := os.OpenFile("./1/salahtimes/salahtimes.json", fileMode, 0644)
 	if err != nil {
 		log.Println(err)
 	}
-	if _, err := f.WriteString( fmt.Sprintf("%s\n", string(t))); err != nil {
+	if _, err := f.WriteString(fmt.Sprintf("%s\n", string(t))); err != nil {
 		log.Println(err)
 	}
 }
 
-func getMonthData2( year int)  {
+func getMonthData2(year int) {
 	//var times SalahTimeYear
 	writeMultipart(true)
 	for month := 0; month < 12; month++ {
@@ -147,7 +284,7 @@ func getMonthData2( year int)  {
 
 				var times Salatimes
 				times.Month = month + 1
-				times.Day,_ = strconv.Atoi(d1.Data[i].Date.Gregorian.Day)
+				times.Day, _ = strconv.Atoi(d1.Data[i].Date.Gregorian.Day)
 				times.Fajar15 = convertStrToMin(d1.Data[i].Timings.Fajr)
 				times.Fajar18 = convertStrToMin(d2.Data[i].Timings.Fajr)
 
@@ -172,7 +309,7 @@ func getMonthData2( year int)  {
 				if err != nil {
 					log.Println(err)
 				}
-				if _, err := f.WriteString( fmt.Sprintf("%s\n", string(t))); err != nil {
+				if _, err := f.WriteString(fmt.Sprintf("%s\n", string(t))); err != nil {
 					log.Println(err)
 				}
 			}
@@ -185,12 +322,11 @@ func getMonthData2( year int)  {
 
 }
 
-
 func getMonthData(month int, year int) SalahTimeRecord {
-	resp1, err := http.Get("http://api.aladhan.com/v1/calendarByCity?city=Buffalo&country=USA&state=NY&school=0&method=99&methodSettings=15,null,15"+fmt.Sprintf("&year=%v&month=%v",year, month))
-	resp2, err := http.Get("http://api.aladhan.com/v1/calendarByCity?city=Buffalo&country=USA&state=NY&school=1&method=99&methodSettings=18,null,18"+fmt.Sprintf("&year=%v&month=%v",year, month))
+	resp1, err := http.Get("http://api.aladhan.com/v1/calendarByCity?city=Buffalo&country=USA&state=NY&school=0&method=99&methodSettings=15,null,15" + fmt.Sprintf("&year=%v&month=%v", year, month))
+	resp2, err := http.Get("http://api.aladhan.com/v1/calendarByCity?city=Buffalo&country=USA&state=NY&school=1&method=99&methodSettings=18,null,18" + fmt.Sprintf("&year=%v&month=%v", year, month))
 
-	st := SalahTimeRecord{ Month: month, Year: year}
+	st := SalahTimeRecord{Month: month, Year: year}
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -260,14 +396,15 @@ type Month struct {
 //	Expanded    string `json:"expanded"`
 //}
 type Gregorian struct {
-	Date        string      `json:"date"`
-	Format      string      `json:"format"`
-	Day         string      `json:"day"`
-	Weekday     Weekday     `json:"weekday"`
-	Month       Month       `json:"month"`
-	Year        string      `json:"year"`
+	Date    string  `json:"date"`
+	Format  string  `json:"format"`
+	Day     string  `json:"day"`
+	Weekday Weekday `json:"weekday"`
+	Month   Month   `json:"month"`
+	Year    string  `json:"year"`
 	//Designation Designation `json:"designation"`
 }
+
 //type Weekday struct {
 //	En string `json:"en"`
 //	Ar string `json:"ar"`
@@ -326,5 +463,5 @@ type Meta struct {
 type Data struct {
 	Timings Timings `json:"timings"`
 	Date    Date    `json:"date"`
-	Meta Meta `json:"meta"`
+	Meta    Meta    `json:"meta"`
 }
