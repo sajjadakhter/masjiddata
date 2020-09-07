@@ -1,5 +1,11 @@
 {"Multipart":"begin"}
-{"Month":1,"Day":1,"fajar":{ "times": [390]},"zuhar":{ "times":[820]},"asar":{ "times":[960]}, "maghrib":{ "type": "relative","times":[2]}, "isha":{ "times":[1170]}, "juma": { "times":[820]}, "eid":{ "times": []}}
+{"Month":1,"Day":1,"fajar":{ "times": [390]}}
+{"Month":1,"Day":1,"zuhar":{ "times":[820]}}
+{"Month":1,"Day":1,"asar":{ "times":[960]} }
+{"Month":1,"Day":1,"maghrib":{ "type": "relative","times":[2]}}
+{"Month":1,"Day":1,"isha":{ "times":[1170]}}
+{"Month":1,"Day":1, "juma": { "times":[820]}}
+{"Month":1,"Day":1,"eid":{ "times": []}}
 {"Month":2,"Day":1,                        "asar":{ "times":[975]   }                       }
 {"Month":2,"Day":11,                       "asar":{ "times":[990]},              "isha":[1185]}
 {"Month":2,"Day":21, "fajar":{ "times":[375]},          "asar":{ "times":[1005]},             "isha":{ "times":[1200]}}
