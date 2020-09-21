@@ -105,10 +105,12 @@ func tomina(h int, m int) []int {
 func writeMasjidZakriyaTimes() {
 	times := []DailyIqamahTime{
 		{Month: 1, Day: 1, SalahName: fajar, Times: tomina(6, 30)},
-		{Month: 1, Day: 1, SalahName: zuhar, Times: tomina(13, 0)},
+		{Month: 1, Day: 1, SalahName: zuhar, Times: tomina(13, 40)},
 		{Month: 1, Day: 1, SalahName: asar, Times: tomina(16, 0)},
 		{Month: 1, Day: 1, SalahName: maghrib, Times: []int{2}, Relative: true},
 		{Month: 1, Day: 1, SalahName: isha, Times: tomina(19, 30)},
+		{Month: 1, Day: 1, SalahName: juma, Times: tomina(13, 40)},
+		{Month: 1, Day: 1, SalahName: eid, Times: make([]int, 0)},
 
 		{Month: 2, Day: 1, SalahName: asar, Times: tomina(16, 15)},
 

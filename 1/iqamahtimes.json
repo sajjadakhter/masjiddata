@@ -1,9 +1,11 @@
 {"Multipart":"begin"}
 {"Month":1,"Day":1,"SalahName":"fajar","Times":[390]}
-{"Month":1,"Day":1,"SalahName":"zuhar","Times":[780]}
+{"Month":1,"Day":1,"SalahName":"zuhar","Times":[820]}
 {"Month":1,"Day":1,"SalahName":"asar","Times":[960]}
 {"Month":1,"Day":1,"SalahName":"maghrib","Times":[2],"Relative":true}
 {"Month":1,"Day":1,"SalahName":"isha","Times":[1170]}
+{"Month":1,"Day":1,"SalahName":"juma","Times":[820]}
+{"Month":1,"Day":1,"SalahName":"eid","Times":[]}
 {"Month":2,"Day":1,"SalahName":"asar","Times":[975]}
 {"Month":2,"Day":11,"SalahName":"asar","Times":[990]}
 {"Month":2,"Day":11,"SalahName":"isha","Times":[1185]}
@@ -57,3 +59,4 @@
 {"Month":11,"Day":1,"DayOfWeek":"sunday","SalahName":"isha","Times":[1170]}
 {"Month":12,"Day":11,"SalahName":"fajar","Times":[390]}
 {"Multipart":"end"}
+}
