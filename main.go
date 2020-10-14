@@ -121,9 +121,13 @@ func writeMasjidZakriyaTimes() {
 		{Month: 2, Day: 21, SalahName: asar, Times: tomina(16, 45)},
 		{Month: 2, Day: 21, SalahName: isha, Times: tomina(20, 0)},
 
-		{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: fajar, Times: tomina(6, 30)},
-		{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: asar, Times: tomina(18, 30)},
-		{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: isha, Times: tomina(21, 15)},
+		//{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: fajar, Times: tomina(6, 30)},
+		//{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: asar, Times: tomina(18, 30)},
+		//{Month: 3, Day: 2, DayOfWeek: "sunday", SalahName: isha, Times: tomina(21, 15)},
+
+		{Month: 3, Day: 14, SalahName: fajar, Times: tomina(6, 30)},
+		{Month: 3, Day: 14, SalahName: asar, Times: tomina(18, 30)},
+		{Month: 3, Day: 14, SalahName: isha, Times: tomina(21, 15)},
 
 		{Month: 3, Day: 21, SalahName: isha, Times: tomina(21, 30)},
 
@@ -183,9 +187,13 @@ func writeMasjidZakriyaTimes() {
 		{Month: 10, Day: 21, SalahName: asar, Times: tomina(17, 15)},
 		{Month: 10, Day: 21, SalahName: isha, Times: tomina(20, 15)},
 
-		{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: fajar, Times: tomina(6, 15)},
-		{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: asar, Times: tomina(16, 15)},
-		{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: isha, Times: tomina(19, 30)},
+		//{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: fajar, Times: tomina(6, 15)},
+		//{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: asar, Times: tomina(16, 15)},
+		//{Month: 11, Day: 1, DayOfWeek: "sunday", SalahName: isha, Times: tomina(19, 30)},
+
+		{Month: 11, Day: 1, SalahName: fajar, Times: tomina(6, 15)},
+		{Month: 11, Day: 1, SalahName: asar, Times: tomina(16, 15)},
+		{Month: 11, Day: 1, SalahName: isha, Times: tomina(19, 30)},
 
 		{Month: 12, Day: 11, SalahName: fajar, Times: tomina(6, 30)},
 	}
